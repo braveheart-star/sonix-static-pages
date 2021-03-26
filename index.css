@@ -10,3 +10,10 @@
 .show {
   display: block;
 }
+
+.payment {
+  background: rgb(241, 211, 122);
+}
+.footer {
+  background: #13171a;
+}
