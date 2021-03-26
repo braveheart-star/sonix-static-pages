@@ -1,0 +1,12 @@
+.home {
+  background: linear-gradient(134.42deg, #151356 0%, #3a388d 44%, #18165a 100%);
+}
+.header {
+  background: linear-gradient(134.42deg, #151356 0%, #3a388d 44%, #18165a 100%);
+}
+.dropdown-content {
+  display: none;
+}
+.show {
+  display: block;
+}
