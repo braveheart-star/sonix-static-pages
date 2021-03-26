@@ -18,7 +18,7 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="/index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./index.css" media="screen" />
   </head>
   <body>
     <div class="home">
@@ -32,7 +32,10 @@
               <p class="mx-4">Investment Comp. Plan</p>
               <p class="mx-4">SignIn/SignUp</p>
             </div>
-            <div onclick="myFunction()" class="relative lg:hidden dropbtn">
+            <button
+              onclick="myFunction()"
+              class="relative lg:hidden dropbtn p-2"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -41,6 +44,7 @@
                 class="text-white fill-current dropbtn"
               >
                 <path
+                  class="text-white fill-current dropbtn"
                   d="M4 22h-4v-4h4v4zm0-12h-4v4h4v-4zm0-8h-4v4h4v-4zm3 0v4h17v-4h-17zm0 12h17v-4h-17v4zm0 8h17v-4h-17v4z"
                 />
               </svg>
@@ -54,7 +58,7 @@
                 <p class="my-1">Sign in</p>
                 <p class="my-1">Sign up</p>
               </div>
-            </div>
+            </button>
           </div>
         </div>
       </div>
